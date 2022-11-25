@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 import unittest
-from prog1 import Addition
+from Prog1 import Addition
 
 
 class TestAddition(unittest.TestCase):
