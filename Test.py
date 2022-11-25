@@ -4,8 +4,8 @@ import unittest
 from Prog1 import Addition
     #wrong test case
     def test_addition1(self):
-        result = Addition(5,4)
-        self.assertEqual(result,1)
+        result = Addition(1,8)
+        self.assertEqual(result,8)                
 
 
 class TestAddition(unittest.TestCase):
