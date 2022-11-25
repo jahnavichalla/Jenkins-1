@@ -1,5 +1,5 @@
 import unittest
-from addition import Addition
+from Prog1 import Addition
 
 
 class TestAddition(unittest.TestCase):
