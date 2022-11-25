@@ -1,17 +1,33 @@
-#!/usr/bin/python3
-# Test case for adding two numbers
 import unittest
+from addition import Addition
 
-from Prog1 import summation
 
-class TestSum(unittest.TestCase):
-    def test_list_int(self):
-        """
-        Test case to add two numbers
-        """
-        data = [20, 30]
-        result = summation(data)
-        self.assertEqual(result, 500)
+class TestAddition(unittest.TestCase):
+    #correct test case
+    def test_addition1(self):
+        result = Addition(2,3)
+        self.assertEqual(result,5)
 
-if __name__ == '__main__':
-    unittest.main()
+
+    #correct test case
+    def test_addition1(self):
+        result = Addition(54,9)
+        self.assertEqual(result,63)
+
+    #correct test case
+    def test_addition1(self):
+        result = Addition(1,0)
+        self.assertEqual(result,1)
+
+    #wrong test case
+    def test_addition1(self):
+        result = Addition(5,4)
+        self.assertEqual(result,1)
+
+    #wrong test case
+    def test_addition1(self):
+        result = Addition(1,8)
+        self.assertEqual(result,8)                
+
+    if __name__ == '__main__':
+        unittest.main()
