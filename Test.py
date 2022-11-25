@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 import unittest
-from addition import Addition
+from prog1 import Addition
 
 
 class TestAddition(unittest.TestCase):
@@ -11,5 +11,6 @@ class TestAddition(unittest.TestCase):
         self.assertEqual(result,5)
 
               
+            
 if __name__ == '__main__':
     unittest.main()
